@@ -1,11 +1,11 @@
 /**
- * 
+ *
  */
 package edu.kit.easydaq.core;
 
 /**
  * @author stefan
- * 
+ *
  * @startuml
  * BuildingBlock <|-down- SensorBlock
  * BuildingBlock <|-down- TransformationBlock
@@ -19,11 +19,9 @@ package edu.kit.easydaq.core;
  * InPort "1" -right- "1" OutPort
  * @enduml
  */
- 
+
 public class ConfigurationBlock {
-	
-	
-		
-	
+
+
 
 }
