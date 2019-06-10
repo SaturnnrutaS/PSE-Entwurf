@@ -1,0 +1,13 @@
+@startuml
+ConfigurationBlock <|-down- SensorBlock
+ConfigurationBlock <|-down- TransformationBlock
+ConfigurationBlock <|-down- PresentationBlock
+SensorBlock "1" -down- "*" PortOut
+TransformationBlock "1" -down- "*" PortOut
+TransformationBlock "1" -down- "*" PortIn
+PresentationBlock "1" -down- "*" PortIn
+Port <|-up- PortIn
+Port <|-up- PortOut
+PortIn "1" -right- "1" PortOut
+@enduml
+ 
